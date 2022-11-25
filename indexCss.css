@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+	color: floralwhite;
+	
+}
+.selection{
+	float:left;
+}
+.selection a{
+	display: block;
+	
+  	color: white;
+  	text-align: center;
+ 	padding: 14px 16px;
+  	text-decoration: none;
+}
+.selection a:hover
+{
+	background-color: #111;
+}
