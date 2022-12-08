@@ -1,7 +1,9 @@
 @charset "utf-8";
 .main {
-	background-color: navy;
-	color: white;
+	position: relative;
+    background-color: navy;
+    color: white;
+    height: 900px;
 }
 
 .navbar{
@@ -26,6 +28,17 @@
 	background-color: #111;
 }
 .banner{
-	width: 1200px;
-	height: 300px;
+    width: 830px;
+    height: 117px;
+    object-fit: contain;
+}
+.bottom
+{
+    align-self: baseline;
+    position: absolute;
+	bottom: 10px;
+    background-color: darkslateblue;
+    height: 26px;
+    width: 50%;
+    text-align: center;
 }
