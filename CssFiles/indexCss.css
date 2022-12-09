@@ -1,0 +1,44 @@
+@charset "utf-8";
+.main {
+	position: relative;
+    background-color: navy;
+    color: white;
+    height: 900px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: black;
+	color: floralwhite;
+	
+}
+.selection{
+	float:left;
+}
+.selection a{
+	display: block;
+	
+  	color: white;
+  	text-align: center;
+ 	padding: 14px 16px;
+  	text-decoration: none;
+}
+.selection a:hover
+{
+	background-color: #111;
+}
+.banner{
+    width: 830px;
+    height: 117px;
+    object-fit: contain;
+}
+.bottom
+{
+    align-self: baseline;
+    position: absolute;
+	bottom: 10px;
+    background-color: darkslateblue;
+    height: 26px;
+    width: 50%;
+    text-align: center;
+}
