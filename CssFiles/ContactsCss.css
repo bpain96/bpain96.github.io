@@ -47,6 +47,10 @@
     width: 100%;
     text-align: center;
 }
+/* padding the text */
+.Contast {
+	margin: 10px;
+}
 /* Class for the forms */
 .emailform {
     padding: 10px;
@@ -57,6 +61,7 @@
 	height:200px;
 	border-radius: 4px;
 	box-sizing: border-box;
+	resize: none;
 }
 /* Class for the submit button */
 .center {
