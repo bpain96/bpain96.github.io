@@ -1,20 +1,23 @@
 @charset "utf-8";
+/* Class for the main file */
 .main {
 	position: relative;
     background-color: navy;
     color: white;
     height: 900px;
 }
-
-.navbar{
+/* Class for the navigation bar */
+.navbar {
     overflow: hidden;
     background-color: black;
 	color: floralwhite;
 	
 }
-.selection{
+/* Class for the navigation selection */
+.selection {
 	float:left;
 }
+
 .selection a{
 	display: block;
 	
@@ -23,22 +26,41 @@
  	padding: 14px 16px;
   	text-decoration: none;
 }
-.selection a:hover
-{
+
+.selection a:hover {
 	background-color: #111;
 }
-.banner{
+/* Class for the Banner */
+.banner {
     width: 830px;
     height: 117px;
     object-fit: contain;
 }
-.bottom
-{
+/* Class for the Footer */
+.bottom {
     align-self: baseline;
     position: absolute;
 	bottom: 10px;
     background-color: darkslateblue;
-    height: 26px;
-    width: 50%;
+    height: 50px;
+    width: 100%;
     text-align: center;
+}
+/* Class for the forms */
+.emailform {
+    padding: 10px;
+    margin: 10px;
+}
+.textarea {
+	width: 500px;
+	height:200px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/* Class for the submit button */
+.center {
+	margin-top: 20px;
+	margin-left: 30%;
+	
+	
 }

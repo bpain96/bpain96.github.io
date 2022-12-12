@@ -1,17 +1,19 @@
 @charset "utf-8";
+/* Class for the main file */
 .main {
 	position: relative;
     background-color: navy;
     color: white;
     height: 900px;
 }
-
+/* Class Navigation bar */
 .navbar{
     overflow: hidden;
     background-color: black;
 	color: floralwhite;
 	
 }
+/* Classes nagigation selection */
 .selection{
 	float:left;
 }
@@ -27,18 +29,20 @@
 {
 	background-color: #111;
 }
+/* Class for the banner */
 .banner{
     width: 830px;
     height: 117px;
     object-fit: contain;
 }
+/* Class for the footer */
 .bottom
 {
     align-self: baseline;
     position: absolute;
 	bottom: 10px;
     background-color: darkslateblue;
-    height: 26px;
-    width: 50%;
+    height: 50px;
+    width: 100%;
     text-align: center;
 }
