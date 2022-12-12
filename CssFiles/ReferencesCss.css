@@ -5,6 +5,7 @@
     background-color: navy;
     color: white;
     height: 900px;
+	
 }
 /* navigation bar */
 .navbar{
@@ -42,7 +43,7 @@
 {
    align-self: baseline;
     position: absolute;
-	bottom: 10px;
+	bottom: 1px;
     background-color: darkslateblue;
     height: 50px;
     width: 100%;
