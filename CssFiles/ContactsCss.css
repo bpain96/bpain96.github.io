@@ -11,6 +11,7 @@
     overflow: hidden;
     background-color: black;
 	color: floralwhite;
+	width: 100%;
 	
 }
 /* Class for the navigation selection */
@@ -62,8 +63,8 @@
 	margin-top: 20px;
 	margin-left: 30%;
 }
-
-@media screen and (min-width: 600px)
+/* media size for banner and nav */
+@media screen and (max-width: 700px)
 {
 	.navbar
 	{
