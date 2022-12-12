@@ -69,3 +69,15 @@ div.desc {
   text-align: center;
 	border-style: groove;
 }
+
+@media screen and (min-width: 600px)
+{
+	.navbar
+	{
+		width: 600px;
+	}
+	.banner
+	{
+		 width: 600px;
+	}
+}
