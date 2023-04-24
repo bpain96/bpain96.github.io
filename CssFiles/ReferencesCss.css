@@ -1,10 +1,15 @@
 @charset "utf-8";
+html{
+	background: #000000;
+}
+
 /* Class fo the main file */
 .main {
 	position: relative;
-    background-color: navy;
+    background-image: linear-gradient(#4967B9 ,#002997 ,#4967B9);
     color: white;
-    height: 900px;
+    height: 1000px;
+	width: 100%;
 	
 }
 /* navigation bar */
@@ -35,25 +40,32 @@
 }
 /* Banner of the file */
 .banner {
-    width: 830px;
-    height: 117px;
-    object-fit: contain;
+    text-align: center;
+	background-image: radial-gradient(#FFA351,#E46B00,#B85700);
+	border-style: outset;
+	padding: 10px;
+	font-family: 'Castoro Titling', serif;
+	text-shadow: 2px 2px 2px black;
+	border-radius: 5px;
+	border-color: orange;
 }
 /* Footer */
 .bottom
 {
    align-self: baseline;
     position: absolute;
-	bottom: 1px;
-    background-color: darkslateblue;
+	bottom: 0px;
+    background-color: darkorange;
     height: 50px;
     width: 100%;
     text-align: center;
 }
 /* Class' for the links */
 .links {
+	
 	margin: 10px;
 	border-style: double;
+	background-color: black;
 	width: 200px;
 	text-align: center;
 	float: left;

@@ -51,8 +51,8 @@ html{
 {
    align-self: baseline;
     position: absolute;
-	bottom: 1px;
-    background-color: darkslateblue;
+	bottom: 0px;
+    background-color: darkorange;
     height: 50px;
     width: 100%;
     text-align: center;
