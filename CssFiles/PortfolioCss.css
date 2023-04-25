@@ -91,3 +91,9 @@ div.desc {
 		 width: 600px;
 	}
 }
+.block {
+	position: absolute;
+	width: 100%;
+	background-color:#222222;
+	height: auto;
+}
